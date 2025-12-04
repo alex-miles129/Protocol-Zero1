@@ -37,8 +37,8 @@ const nextConfig: NextConfig = {
   // Ensure proper routing for Vercel
   trailingSlash: false,
   
-  // Ensure server-side rendering is enabled
-  output: undefined, // Let Vercel handle the output automatically
+  // Explicitly set for Vercel deployment
+  reactStrictMode: true,
 };
 
 export default nextConfig;

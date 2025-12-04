@@ -46,3 +46,5 @@ next-env.d.ts
 !.firebase/storage.rules
 !.firebase/firestore.rules
 !.firebase/firestore.indexes.json
+
+.vercel
